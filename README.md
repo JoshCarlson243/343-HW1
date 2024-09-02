@@ -17,9 +17,18 @@ git pull - pulls all the files tracked in your github repository into your local
 
 git clone <repository ssh address> - clones a github repository locally, which also allows you to push changes in files to the github repository.
 
-example:
+Example:
 To add a local file named "empty_text.txt" to this repository, we can first:
 
+git clone git@github.com:JoshCarlson243/343-HW1.git - this clones this git repository to your local machine.
+
+git add empty_text.txt - stages empty_text.txt to be committed.
+
+git commit - commits your changes to the git repository.
+
+git push - pushes committed changes 
+
+This should push the file "text_file.txt" to the github repository.
 
 
 
